@@ -1,0 +1,4 @@
+J:\Modding\Github\EldenRim-GuldenForest\Source\EldenRim_GuldenForest\EldenRim_GuldenForest\obj\Debug\EldenRim_GuldenForest.csprojAssemblyReference.cache
+J:\Modding\Github\EldenRim-GuldenForest\Source\EldenRim_GuldenForest\EldenRim_GuldenForest\obj\Debug\EldenRim_GuldenForest.csproj.CoreCompileInputs.cache
+J:\Modding\Github\EldenRim-GuldenForest\Assemblies\EldenRim_GuldenForest.dll
+J:\Modding\Github\EldenRim-GuldenForest\Source\EldenRim_GuldenForest\EldenRim_GuldenForest\obj\Debug\EldenRim_GuldenForest.dll
