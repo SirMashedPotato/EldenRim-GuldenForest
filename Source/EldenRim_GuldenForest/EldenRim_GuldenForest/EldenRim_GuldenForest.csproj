@@ -53,11 +53,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DefOf\ThingDefOf.cs" />
+    <Compile Include="IncidentWorker\IncidentWorker_GuldenAmbrosiaSprout.cs" />
     <Compile Include="ThinkNodes\JobGiver_EatCrops.cs" />
     <Compile Include="ModSettings\EldenRim_GuldenForest_Mod.cs" />
     <Compile Include="ModSettings\EldenRim_GuldenForest_ModSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThinkNodes\ThinkNode_ConditionalCropEating.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
