@@ -64,16 +64,13 @@ namespace EldenRim_GuldenForest
 
 		private bool CanSpawnAt(IntVec3 c, Map map)
 		{
-			Log.Message("1");
 			if (!c.Standable(map) || c.Fogged(map) || map.fertilityGrid.FertilityAt(c) < ThingDefOf.Plant_GuldenAmbrosia.plant.fertilityMin || !c.GetRoom(map).PsychologicallyOutdoors || c.GetEdifice(map) != null || !PlantUtility.GrowthSeasonNow(c, map, false))
 			{
-				Log.Message("2");
 				return false;
 			}
 			Plant plant = c.GetPlant(map);
 			if (plant != null && plant.def.plant.growDays > 10f)
 			{
-				Log.Message("3");
 				return false;
 			}
 			List<Thing> thingList = c.GetThingList(map);
@@ -81,11 +78,9 @@ namespace EldenRim_GuldenForest
 			{
 				if (thingList[i].def == ThingDefOf.Plant_GuldenAmbrosia)
 				{
-					Log.Message("4");
 					return false;
 				}
 			}
-			Log.Message("5");
 			return true;
 		}
 
